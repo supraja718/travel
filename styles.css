@@ -113,7 +113,7 @@ nav {
 }
 
 header {
-  background-color: var(--secondary-color);
+  background-color: white;
 }
 
 .header__container {
@@ -440,6 +440,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
