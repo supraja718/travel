@@ -50,7 +50,7 @@
   font-size: 1rem;
   color: var(--extra-light);
   background-color: var(--primary-color);
-  border-radius: 5rem;
+  border-radius: 0;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -133,7 +133,7 @@ header {
   top: 50%;
   left: 50%;
   border: 0.5rem solid var(--extra-light);
-  border-radius: 2rem;
+  border-radius: 0;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
@@ -216,7 +216,7 @@ header {
 }
 
 .destination__card img {
-  border-radius: 1rem;
+  border-radius: 0;
 }
 
 .destination__details {
@@ -230,7 +230,7 @@ header {
   color: var(--extra-light);
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(4px);
-  border-radius: 10px;
+  border-radius: 0;
   z-index: 1;
   transition: 0.3s;
 }
@@ -267,7 +267,7 @@ header {
 }
 
 .trip__card {
-  border-radius: 1rem;
+  border-radius: 0;
   overflow: hidden;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -304,7 +304,7 @@ header {
   color: var(--primary-color);
   outline: none;
   border: 1px solid var(--primary-color);
-  border-radius: 5rem;
+  border-radius: 0;
   background-color: transparent;
   cursor: pointer;
   transition: 0.3s;
@@ -334,7 +334,7 @@ header {
 }
 
 .gallary__col img {
-  border-radius: 1rem;
+  border-radius: 0;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -375,7 +375,7 @@ header {
   display: flex;
   background-color: var(--extra-light);
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-  border-radius: 5rem;
+  border-radius: 0;
 }
 
 .subscribe__form input {
@@ -383,7 +383,7 @@ header {
   padding: 1rem;
   outline: none;
   border: none;
-  border-radius: 5rem;
+  border-radius: 0;
   font-size: 1rem;
 }
 
@@ -492,4 +492,5 @@ header {
   }
 
 }
+
 
