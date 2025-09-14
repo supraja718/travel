@@ -221,7 +221,7 @@ header {
 }
 
 .trip {
-  background-color: var(--secondary-color);
+  background-color: white;
 }
 
 .trip__container :is(.section__title, .section__subtitle, .view__all) {
@@ -440,6 +440,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
