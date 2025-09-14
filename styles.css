@@ -325,7 +325,7 @@ header {
 }
 
 .subscribe {
-  background-color: var(--secondary-color);
+  background-color: white;
 }
 
 .subscribe__container {
@@ -440,6 +440,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 
 
 
