@@ -195,19 +195,15 @@ header {
 }
 
 .destination__details {
-  position: absolute;
-  width: calc(100% - 2rem);
+  position: static;
+  width: 100%;
   padding: 1rem;
-  bottom: -6rem;
-  left: 50%;
-  transform: translateX(-50%);
   text-align: center;
-  color: var(--extra-light);
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(4px);
+  color: var(--text-dark);
+  background-color: var(--extra-light);
+  backdrop-filter: none;
   border-radius: 0;
-  z-index: 1;
-  transition: 0.3s;
+  transition: none;
 }
 
 .destination__card:hover .destination__details {
@@ -467,6 +463,7 @@ header {
   }
 
 }
+
 
 
 
