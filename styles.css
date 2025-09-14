@@ -132,7 +132,6 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  border: 0.5rem solid var(--extra-light);
   border-radius: 0;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -469,6 +468,7 @@ header {
   }
 
 }
+
 
 
 
