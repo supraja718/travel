@@ -441,28 +441,8 @@ header {
   }
 }
 
-@media (width < 600px) {
-  .destination__grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
 
-  .trip__grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
 
-  .gallary__container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .subscribe__container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .footer__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-}
 
 
 
